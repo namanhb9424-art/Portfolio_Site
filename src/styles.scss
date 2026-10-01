@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Sora:wght@500;600;700&display=swap');
+:root { --bg: #0a1220; --panel: #111c30; --line: #223250; --text: #e8eefb; --muted: #9aaac6; --accent: #4cd7c4;
+  --display: 'Sora', system-ui, sans-serif; --body: 'IBM Plex Sans', system-ui, sans-serif; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: radial-gradient(1000px 500px at 80% -10%, #14335a55, transparent), var(--bg); color: var(--text); font: 400 1rem/1.5 var(--body); }
+a { text-decoration: none; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
